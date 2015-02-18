@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap Styleguide</title>
+  <meta name="description" content="" />
+  <meta name="generator" content="kss-node" />
+  <meta name="viewport" content="width=device-width, minimal-ui">
+  <!-- Latest compiled and minified CSS -->
+  <link type="text/css" rel="stylesheet" href="public/kss.css">
+  <link type="text/css" rel="stylesheet" href="public/prettify.css">
+  <link rel="stylesheet" href="/styles/main.css">
+
+</head>
+<body>
+<div>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-styleguide-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./">Styleguide</a>
+      </div>
+      <div class="collapse navbar-collapse navbar-styleguide-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./">Home</a></li>
+            <li><a href="section-1.html"><!--1.0: -->CSS</a></li>
+            <li><a href="section-2.html"><!--2.0: -->Components</a></li>
+            <li><a href="section-3.html"><!--3.0: -->JavaScript</a></li>
+            <li><a href="section-4.html"><!--4.0: -->Base styles</a></li>
+            <li><a href="section-5.html"><!--5.0: -->Site Components</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="col-md-9">
+      <div role="main">
+        <article>
+
+                <h1 class="kss-title" id="5">Site Components</h1>
+                      <p>…and other sundries</p>
+
+                              <section class="kss-depth-2">
+                <h2 class="kss-title" id="5.1"><span class="kss-ref badge pull-right">5.1</span> CTA</h2>
+                  <div class="kss-box"><p>Call to action</p>
+</div>
+
+                  <section class="cta {$modifiers}">
+  <h2>CTA Title Here</h2>
+  <p class="blurb">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+  <button type="button" class="btn btn-default"><a href="#">Here's a button</a></button>
+</section>
+
+
+                  <pre class="prettyprint lang-html">&lt;section class=&quot;cta {$modifiers}&quot;&gt;
+  &lt;h2&gt;CTA Title Here&lt;/h2&gt;
+  &lt;p class=&quot;blurb&quot;&gt;
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  &lt;/p&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;&lt;a href=&quot;#&quot;&gt;Here&#x27;s a button&lt;/a&gt;&lt;/button&gt;
+&lt;/section&gt;</pre>
+
+              
+                </section>
+        </article>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="list-group" data-spy="affix" id="sidebar">
+              <a href="#" class="list-group-item disabled">
+                <h4 class="list-group-item-heading">Site Components</h4>
+              </a>
+                <a href="#5.1" class="list-group-item"><span class="kss-ref badge" >5.1</span> CTA</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="public/kss.js"></script>
+  <script src="public/prettify.js"></script>
+  <script>
+    jQuery(document).ready(function(){
+      // Ensure code blocks are highlighted properly...
+      jQuery('pre>code').addClass('prettyprint');
+      prettyPrint();
+
+      // Set the navigation to be the correct width.
+      jQuery('#sidebar').width(jQuery('.col-md-3').width());
+    });
+  </script>
+  
+</div>
+</body>
+</html>
