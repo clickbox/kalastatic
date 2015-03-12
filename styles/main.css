@@ -6255,6 +6255,10 @@ Site Components
 
 Styleguide 5.0
 */
+li.active a {
+  background: #337ab7;
+  color: #444; }
+
 .modal-backdrop {
   opacity: .9; }
 
