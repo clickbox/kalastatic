@@ -1,7 +1,7 @@
 ---
-template: "layouts/header-twocol-content-first.html"
-title: Test
-page_slug: test
+template: "layouts/lede-with-floated-touts.html"
+title: Test Touts
+page_slug: test-touts
 ---
 
 ## !!KalaStatic is a game-changing prototyping tool!!

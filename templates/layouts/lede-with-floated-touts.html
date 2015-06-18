@@ -1,0 +1,18 @@
+{% extends 'html.html' %}
+
+{% block contents %}
+
+{% set currentPage = pages[page_slug]; %}
+<section class="lede">
+  {% include "partials/blocks.html" with currentPage.sections.lede only %}
+</section>
+<section class="content">
+  <article class="content">
+    {% include "partials/blocks.html" with currentPage.sections.content only %}
+  </article>
+  <aside class="sidebar">
+    {% include "partials/blocks.html" with currentPage.sections.sidebar only %}
+  </aside>
+</section>
+
+{% endblock %}
