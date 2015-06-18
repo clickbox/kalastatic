@@ -1,5 +1,4 @@
 test:
-  name: 'test'
   sections:
     page_header:
       components:
@@ -25,3 +24,48 @@ test:
           blurb: "It's clearly the better choice."
           link: "/awesome"
           background: /images/ctabackground.jpg
+anothertest:
+  sections:
+    lede:
+      components:
+        -
+          name: lede
+          depth: 2
+          content: "Hello World"
+    touts:
+      components:
+        -
+          name: tout
+          title: "1) Tout"
+          blurb: Hi didly yall
+          image: /images/placeholder.jpg
+        -
+          name: tout
+          title: "2) Tout"
+          blurb: Hi didly yall
+          image: /images/placeholder.jpg
+        -
+          name: tout
+          title: "3) Tout"
+          blurb: Hi didly yall
+          image: /images/placeholder.jpg
+        -
+          name: tout
+          title: "4) Tout"
+          blurb: Hi didly yall
+          image: /images/placeholder.jpg
+        -
+          name: tout
+          title: "5) Tout"
+          blurb: Hi didly yall
+          image: /images/placeholder.jpg
+        -
+          name: tout
+          title: "6) Tout"
+          blurb: Hi didly yall
+          image: /images/placeholder.jpg
+        -
+          name: tout
+          title: "7) Tout"
+          blurb: Hi didly yall
+          image: /images/placeholder.jpg

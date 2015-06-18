@@ -1,5 +1,5 @@
 ---
-template: "layouts/header-twocol-content-first.html"
+template: "wireframe_layouts/header-twocol-content-first.html"
 title: Test
 page_slug: test
 ---
