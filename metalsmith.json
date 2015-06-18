@@ -19,7 +19,8 @@
     },
     "metalsmith-metadata": {
       "config": "config.yaml",
-      "navigation": "navigation.yaml"
+      "navigation": "navigation.yaml",
+      "pages": "site.yaml"
     },
     "metalsmith-markdown": {},
     "metalsmith-permalinks": {

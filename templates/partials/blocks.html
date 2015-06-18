@@ -1,0 +1,4 @@
+{% for component in components %}
+  {% set componentFile = String( '../components/' + component.name + '.html' ) %}
+  {% include componentFile with component only %}
+{% endfor %}
