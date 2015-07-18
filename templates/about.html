@@ -19,35 +19,17 @@
     </nav>
 
     <div class="tab-content">
+
       <section class="content management tab-pane fade in active" id="about">
-
         <h1>About</h1>
-
-        {% for key, contentBlock in collections.managementContent %}
-          {% include "./partials/copyblock-intro.html" with contentBlock only%}
-        {% endfor %}
-
-        {% for key, person in collections.management %}
-          {% include "./partials/person.html" with person only %}
-        {% endfor %}
       </section>
 
       <section class="content boards tab-pane fade" id="goals">
         <h1>Goals</h1>
-
       </section>
 
       <section class="content investors tab-pane fade" id="features">
-
         <h1>Featues</h1>
-
-
-        {% for key, contentBlock in collections.investorContent %}
-          {% include "./partials/copyblock-intro.html" with contentBlock only%}
-        {% endfor %}
-        {% for key, investor in collections.investors %}
-          {% include "./partials/investor.html" with investor only %}
-        {% endfor %}
       </section>
 
     </div>
@@ -60,19 +42,4 @@
 
 </main>
 
-{% endblock %}
-
-
-{% block page-suffix %}
-<section class="people-modals">
-  {% for key, person in collections.management %}
-    {% include "./partials/person-modal.html" with person only %}
-  {% endfor %}
-  {% for key, person in collections.board %}
-    {% include "./partials/person-modal.html" with person only %}
-  {% endfor %}
-  {% for key, person in collections.abab %}
-    {% include "./partials/person-modal.html" with person only %}
-  {% endfor %}
-</section>
 {% endblock %}
