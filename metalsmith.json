@@ -11,13 +11,8 @@
       "pattern": ":url",
       "relative": false
     },
-    "metalsmith-swig-helpers": {
-      "filters": {
-        "xorcrypt": "xor-crypt"
-      }
-    },
     "metalsmith-templates": {
-      "engine": "swig"
+      "engine": "nunjucks"
     },
     "metalsmith-browserify": {
       "files": [

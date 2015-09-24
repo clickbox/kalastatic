@@ -14,7 +14,9 @@
   <meta name="msapplication-TileImage" content="/images/tileicon.png">
 
   <title>
-    {% block title %}{{config.title|title}}{% endblock %}
+    {% block title %}
+      {{config.title|title}}
+    {% endblock %}
   </title>
 
   {% block head %}
@@ -59,7 +61,7 @@
     {% include footerComponent %}
   {% endblock %}
 
-  {% block page-suffix %}
+  {% block page_suffix %}
   {% endblock %}
 
   {% block scripts %}
