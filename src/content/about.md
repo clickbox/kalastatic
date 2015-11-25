@@ -6,6 +6,8 @@ cta:
   title: Interested in learning more about us?
   cta: Contact us
   url: "/contact"
+include:
+  thanks: include_example/thanks
 ---
 <h3 class="bg-primary">Kalastatic is a static framework for prototyping responsive sites, styleguides, and designing in-browser.</h3>
 
